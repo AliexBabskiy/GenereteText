@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Вопрос 1",
+    "Description": "2+2=?",
+    "FirstAnswer": "4",
+    "SecondAnswer": "5",
+    "ThirdAnswer": "6",
+    "RightAnswer": 0
+  },
+  {
+    "Name": "Вопрос 2",
+    "Description": "5!",
+    "FirstAnswer": "25",
+    "SecondAnswer": "100",
+    "ThirdAnswer": "120",
+    "RightAnswer": 2
+  },
+  {
+    "Name": "Вопрос 3",
+    "Description": "100/4",
+    "FirstAnswer": "5",
+    "SecondAnswer": "25",
+    "ThirdAnswer": "30",
+    "RightAnswer": 0
+  },
+  {
+    "Name": "",
+    "Description": "",
+    "FirstAnswer": "",
+    "SecondAnswer": "",
+    "ThirdAnswer": "",
+    "RightAnswer": 0
+  },
+  {
+    "Name": "",
+    "Description": "",
+    "FirstAnswer": "",
+    "SecondAnswer": "",
+    "ThirdAnswer": "",
+    "RightAnswer": 0
+  }
+]

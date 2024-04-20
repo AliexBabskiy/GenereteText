@@ -1,0 +1,49 @@
+﻿<Page x:Class="TesterWPF.PageTest"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TesterWPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageTest">
+
+    <Grid x:Name="MainSpace">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+        
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock x:Name="NameTextBlock" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" FontSize="16"/>
+
+            <TextBlock x:Name="DescriptionTextBlock" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" FontSize="14"/>
+
+        </Grid>
+
+        <Grid x:Name="AnswersGrid" Grid.Row="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="_1" Content="" FontSize="16" Click="Bt_Cl"/>
+
+            <Button x:Name="_2" Grid.Row="1" Content="" FontSize="16" Click="Bt_Cl"/>
+
+            <Button x:Name="_3" Grid.Row="2" Content="" FontSize="16" Click="Bt_Cl"/>
+
+            <TextBlock x:Name="AnswerResultTextBlock" Grid.Row="3" HorizontalAlignment="Center"  VerticalAlignment="Center" TextAlignment="Center" FontSize="14"/>
+        </Grid>
+    </Grid>
+</Page>
